@@ -1,0 +1,7 @@
+{
+    "devDependencies": {
+        "browser-sync": "*",
+        "gulp": "*",
+        "qrcode-terminal": "*"
+    }
+}
