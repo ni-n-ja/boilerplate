@@ -14,14 +14,6 @@ var imageHeight;
 
 window.onload = () => {
 
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('service-worker.js', {
-            scope: './'
-        }).catch((e) => {
-            console.error(e);
-        });
-    }
-
     let qr = document.getElementById("QR");
     let qrContainer = document.getElementsByClassName("QRcontainer")[0];
     canvas = document.getElementById("canvas");
